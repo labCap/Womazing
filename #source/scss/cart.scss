@@ -1,0 +1,144 @@
+.cart {
+
+    &__inner {
+        margin: 190px 0 130px 0;
+    }
+
+    &__top {
+        margin: 0 0 214px 0;
+    }
+
+    &__title {
+        margin: 0 0 26px 0;
+    }
+
+
+}
+
+
+.cart-table {
+    font-weight: 500;
+
+    &__row {
+        border-bottom: 1px solid #CCCCCC;
+        font-size: 20px;
+        line-height: 140%;
+
+        padding: 50px 0 30px 0;
+
+        display: grid;
+        align-items: center;
+        grid-template-columns: 475px 1fr 1fr 1fr;
+
+
+        &:last-child {
+            border-bottom: none;
+            font-size: 17px;
+            line-height: 140%;
+        }
+    }
+
+}
+
+.card-product {
+    display: flex;
+    align-items: center;
+
+    &::before {
+        content: '';
+        background: url('../img/ico-closet.svg') center center no-repeat;
+        height: 12px;
+        width: 12px;
+        margin: 0 45px 0 0;
+        cursor: pointer;
+    }
+
+    img {
+        width: 100%;
+        max-width: 125px;
+        margin: 0 36px 0 0;
+    }
+}
+
+
+.card-btn {
+    width: 47px;
+    height: 47px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border: 1px solid #AFAFAF;
+}
+
+
+.cart {
+
+    &__form-box {
+        justify-content: space-between;
+        display: flex;
+        align-items: center;
+        margin: 62px 0 88px 0;
+    }
+
+    &__form-input-box {
+        display: flex;
+
+    }
+
+
+    &__enter-coupon {
+        margin: 0 16px 0 0;
+        width: 255px;
+    }
+
+    &__btn-cupon {
+        background-color: transparent;
+        white-space: nowrap;
+    }
+
+    &__btn-restart {
+        background-color: transparent;
+        white-space: nowrap;
+    }
+
+    &__result-box {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+    }
+
+    &__result-text1 {
+        font-weight: 500;
+        font-size: 17px;
+        line-height: 140%;
+        margin: 0 0 28px 0;
+    }
+
+    &__result-text-box {
+        display: flex;
+        margin: 0 -7.5px;
+    }
+
+    &__result-text2 {
+        background: #F1EADC;
+        padding: 16px 30px;
+        font-weight: 500;
+        font-size: 25px;
+        line-height: 140%;
+        display: inline-block;
+        flex: 0 1 auto;
+        margin: 0 7.5px;
+
+        span {
+            margin: 0 0 0 69px;
+        }
+    }
+
+
+    &__result-btn-cupon {
+        flex: 0 1 auto;
+        margin: 0 7.5px;
+    }
+}

@@ -1,0 +1,210 @@
+@import 'rem';
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;700;900&display=swap');
+
+
+body {
+    height: 100%;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+    letter-spacing: 0.02em;
+
+}
+
+a {
+    color: #000;
+    display: inline-block;
+    letter-spacing: 0.02em;
+
+}
+
+.wrapper {
+    min-height: 100%;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+
+.main {
+    flex: 1 1 auto;
+}
+
+.container {
+    max-width: 1130px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+
+.title-big {
+    font-weight: 500;
+    font-size: 55px;
+    line-height: 110%;
+}
+
+.title {
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 110%;
+    color: #000;
+}
+
+.descr {
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 140%;
+}
+
+// .menu__list-li.active 
+
+
+.btn {
+    padding: 22px 50px;
+    font-size: 17px;
+    color: #FFFFFF;
+    background: #6E9C9F;
+    transition: all .5s ease;
+
+    &:hover {
+        background: #509498;
+        transition: all .5s ease;
+    }
+}
+
+.btn1 {
+    padding: 21px 49px;
+    font-size: 17px;
+    color: #6E9C9F;
+    border: 1px solid #6E9C9F;
+    transition: all .5s ease;
+
+    &:hover {
+        background: #6E9C9F;
+        color: #fff;
+        transition: all .5s ease;
+    }
+}
+
+.btn2 {
+    display: inline-block;
+    padding: 9px 16.5px;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 140%;
+    border: 1px solid #000000;
+    cursor: pointer;
+
+    &:hover {
+        transition: all .5s ease;
+        background: #000;
+        color: #fff;
+    }
+
+
+    &.active {
+        background: #000;
+        color: #fff;
+    }
+}
+
+.hello.slick-initialized .slick-slide {
+    display: flex;
+}
+
+.team .slick-list {
+    width: 730px;
+}
+
+
+
+.bread-crumbs {
+    a {
+        color: #000;
+        font-weight: 500;
+        font-size: 17px;
+        line-height: 140%;
+
+        &::after {
+            content: '—';
+            margin: 0 13px;
+        }
+
+        &:last-child {
+            color: #919191;
+
+            &::after {
+                content: '';
+            }
+        }
+    }
+}
+
+
+
+.form__textarea-style {
+    display: block;
+    width: 100%;
+    height: 134px;
+    border-bottom: 1px solid #000;
+    padding: 4px 10px 16px 5px;
+
+    &:focus {
+        border: 1px solid #000;
+    }
+
+    &::placeholder {
+        font-weight: 500;
+        font-size: 17px;
+        line-height: 140%;
+        color: #868686;
+    }
+
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 140%;
+    color: #868686;
+    resize: none;
+}
+
+.form__input-style {
+
+    display: block;
+    width: 100%;
+    border-bottom: 1px solid #000;
+    padding: 4px 10px 16px 5px;
+    margin-bottom: 35px;
+
+    &:focus {
+        border: 1px solid #000;
+    }
+
+    &::placeholder {
+        font-weight: 500;
+        font-size: 17px;
+        line-height: 140%;
+        color: #868686;
+    }
+
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 140%;
+    color: #868686;
+
+}
+
+
+
+@import 'header';
+
+@import 'hello';
+@import 'shop';
+@import 'collection';
+@import 'benefits';
+@import 'team';
+@import 'product-card';
+@import 'about-brand';
+@import 'сontacts';
+@import 'cart';
+@import 'checkout';
+@import 'success';
+
+@import 'footer';

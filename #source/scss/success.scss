@@ -1,0 +1,49 @@
+.success {
+
+    &__inner {
+        margin: 190px 0 130px 0;
+    }
+
+    &__top {
+        margin: 0 0 214px 0;
+    }
+
+    &__title {
+        margin: 0 0 26px 0;
+    }
+
+    &__info {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        font-weight: 500;
+        line-height: 140%;
+    }
+
+    &__info-box {
+        display: flex;
+        align-items: center;
+    }
+
+}
+
+.success-info {
+
+
+    &__img {
+        margin: 0 44px 0 0;
+
+    }
+
+
+    &__title {
+        font-size: 25px;
+        margin: 0 0 17px 0;
+    }
+
+    &__subtitle {
+        font-size: 17px;
+
+    }
+
+}

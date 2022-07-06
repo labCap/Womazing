@@ -1,0 +1,5 @@
+.menu__list-li:nth-child(2) a {
+  font-weight: 700;
+  font-size: 15px;
+  color: #6E9C9F;
+}

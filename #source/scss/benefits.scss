@@ -1,0 +1,39 @@
+.benefits {
+    margin: 0 0 130px 0;
+
+    &__title {
+        margin: 0 0 92px 0;
+    }
+
+    &__items {
+        display: flex;
+        margin: 0 -15px;
+        justify-content: space-between;
+
+    }
+
+    &__item {
+        margin: 0 15px;
+        flex: 1 1 33.333%;
+    }
+}
+
+.benefits-item {
+
+    &__img {
+        margin: 0 0 37px 0;
+    }
+
+    &__title {
+        font-weight: 500;
+        font-size: 25px;
+        line-height: 140%;
+        margin: 0 0 24px 0;
+    }
+
+    &__descr {
+        font-weight: 500;
+        font-size: 17px;
+        line-height: 140%;
+    }
+}

@@ -1,0 +1,113 @@
+// .menu__list-li:nth-child(1) {
+//     a {
+//         font-weight: 700;
+//         font-size: 15px;
+//         color: #6E9C9F;
+//     }
+// }
+
+.hello {
+    // position: relative;
+    background: url(../img/hello-img.png) 76.3% center no-repeat;
+
+    &::after {
+        content: '';
+        width: 705px;
+        height: 855px;
+        background: #f1eadc;
+        top: 0;
+        right: 0;
+        position: absolute;
+        z-index: -1;
+    }
+
+    &__slide {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    &__text {
+        width: 100%;
+        max-width: 50%;
+
+        @media (max-width:900px) {
+            max-width: 100%;
+        }
+
+        padding: 205px 20px;
+        background: rgba(255, 255, 255, 0.646);
+    }
+
+    &__title {
+        margin: 0 0 45px 0;
+    }
+
+    &__descr {
+        margin: 0 0 52px 0;
+        font-size: 20px;
+        line-height: 140%;
+    }
+
+    &__btn-box {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: flex-end;
+        // align-items: center;
+    }
+
+    &__btn-arrow-down {
+        opacity: 1;
+        background: rgba(110, 156, 159, 0.1);
+        padding: 19px 25px;
+        transition: all .5s ease;
+
+        &:hover {
+            background: rgba(110, 156, 159, 0.292);
+            transition: all .5s ease;
+            cursor: pointer;
+        }
+    }
+
+    // &__img {
+    //     width: 100%;
+    //     max-width: 50%;
+    //     position: relative;
+    //     right: -10px;
+    // }
+}
+
+
+.hello__slider .slick-dots {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin: 35px 0 0 0;
+
+    position: absolute;
+    bottom: 60px;
+    left: 270px;
+}
+
+.hello__slider .slick-dots li {
+    margin: 0 6px;
+}
+
+.hello__slider .slick-dots li.slick-active button {
+    background-color: #000;
+    transition: all .5s ease;
+
+}
+
+
+.hello__slider .slick-dots button {
+    transition: all .5s ease;
+    font-size: 0;
+    width: 30px;
+    height: 4px;
+    padding: 0;
+    border: 0;
+    background: #D1D1D1;
+
+    outline: none;
+}
